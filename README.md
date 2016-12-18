@@ -11,6 +11,18 @@ Summary: Python wrapper for the GitHub API (http://developer.github.com/v3)
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/github3.py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/github3.py-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/github3.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/github3.py-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/github3.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/github3-py-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/github3.py/badges/version.svg)](https://anaconda.org/conda-forge/github3.py)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/github3.py/badges/downloads.svg)](https://anaconda.org/conda-forge/github3.py)
+
 Installing github3.py
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `github3.py` available on your pla
 ```
 conda search github3.py --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/github3.py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/github3.py-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/github3.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/github3.py-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/github3.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/github3-py-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/github3.py/badges/version.svg)](https://anaconda.org/conda-forge/github3.py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/github3.py/badges/downloads.svg)](https://anaconda.org/conda-forge/github3.py)
 
 
 Updating github3.py-feedstock
