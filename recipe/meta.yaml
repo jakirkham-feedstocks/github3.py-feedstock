@@ -1,51 +1,46 @@
-{% set name = "github3.py" %}
 {% set version = "1.0.0a4" %}
 
 package:
-    name: {{ name }}
-    version: {{ version }}
+  name: github3.py
+  version: {{ version }}
 
 source:
-    fn: {{ name }}-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    md5: a8513584fd3b11746b14e91e00a74960
+  fn: github3.py-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/g/github3.py/github3.py-{{ version }}.tar.gz
+  sha256: 570e776e2ab1318533b1555ee2f2f784142883b49cb4090582c0307c16cc1666
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - pyopenssl
-        - ndg-httpsclient  # [not py3k]
-        - pyasn1
-        - requests >=2.0
-        - uritemplate.py >=0.2.0
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - pyopenssl
+    - ndg-httpsclient  # [not py3k]
+    - pyasn1
+    - requests >=2.0
+    - uritemplate.py >=0.2.0
 
 test:
-    imports:
-        - github3
-        - github3.gists
-        - github3.issues
-        - github3.repos
-        - github3.search
-    requires:
-        - betamax >=0.2.0
-        - betamax-matchers >=0.1.0
-        - mock ==1.0.1  # [not py35]
-        - pytest
+  imports:
+    - github3
+    - github3.gists
+    - github3.issues
+    - github3.repos
+    - github3.search
 
 about:
-    home: https://github3py.readthedocs.org
-    license: BSD-3-Clause
-    summary: Python wrapper for the GitHub API (http://developer.github.com/v3)
+  home: https://github3py.readthedocs.org
+  license: BSD 3-Clause
+  license_file: LICENSE
+  summary: 'Python wrapper for the GitHub API (http://developer.github.com/v3).'
 
 extra:
-    recipe-maintainers:
-        - jakirkham
-        - ocefpaf
-        - sigmavirus24
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf
+    - sigmavirus24

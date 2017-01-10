@@ -3,11 +3,11 @@ About github3.py
 
 Home: https://github3py.readthedocs.org
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Python wrapper for the GitHub API (http://developer.github.com/v3)
+Summary: Python wrapper for the GitHub API (http://developer.github.com/v3).
 
 
 
