@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: github3.py
@@ -7,7 +7,7 @@ package:
 source:
   fn: github3.py-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/g/github3.py/github3.py-{{ version }}.tar.gz
-  sha256: f5e069a91d72b88c3cd968d0d61ef213ce119dbfe5c9d7ac67b0954abf9882de
+  sha256: 976ffa8b0742fbbd91b02a0dd32fefd9ed13bf380f6ce289a3aa019e305221bd
 
 build:
   number: 0
