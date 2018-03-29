@@ -20,11 +20,11 @@ requirements:
   run:
     - python
     - pyopenssl
-    - ndg-httpsclient  # [not py3k]
+    - ndg-httpsclient
     - pyasn1
-    - requests >=2.0
-    - uritemplate.py >=0.2.0
-    - python-dateutil
+    - requests >=2.18
+    - uritemplate.py >=3.0.0
+    - python-dateutil >=2.6.0
 
 test:
   imports:
