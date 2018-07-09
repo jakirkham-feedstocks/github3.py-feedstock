@@ -14,14 +14,15 @@ Summary: Python wrapper for the GitHub API (http://developer.github.com/v3).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/github3.py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/github3.py-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/github3.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/github3.py-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/github3.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/github3-py-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/github3.py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/github3.py-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/github3.py/badges/version.svg)](https://anaconda.org/conda-forge/github3.py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/github3.py/badges/downloads.svg)](https://anaconda.org/conda-forge/github3.py)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-github3.py-green.svg)](https://anaconda.org/conda-forge/github3.py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/github3.py.svg)](https://anaconda.org/conda-forge/github3.py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/github3.py.svg)](https://anaconda.org/conda-forge/github3.py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/github3.py.svg)](https://anaconda.org/conda-forge/github3.py) |
 
 Installing github3.py
 =====================
