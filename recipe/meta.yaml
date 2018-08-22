@@ -27,6 +27,7 @@ requirements:
     - requests >=2.18
     - uritemplate.py >=3.0.0
     - python-dateutil >=2.6.0
+    - jwcrypto
 
 test:
   imports:
