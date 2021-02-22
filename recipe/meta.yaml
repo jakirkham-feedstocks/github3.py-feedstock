@@ -10,17 +10,17 @@ source:
   sha256: 8dd4ac612fd60cb277eaf6e2ce02f68dda54aba06870ca6fa2b28369bf39aa14
 
 build:
-  noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
+    - python >=3
     - pip
-    - python
     - setuptools
   run:
-    - python
+    - python >=3
     - pyopenssl
     - ndg-httpsclient
     - pyasn1
@@ -36,10 +36,14 @@ test:
     - github3.issues
     - github3.repos
     - github3.search
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github3py.readthedocs.org
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: Python wrapper for the GitHub API (http://developer.github.com/v3).
 
