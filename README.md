@@ -3,7 +3,7 @@ About github3.py
 
 Home: https://github3py.readthedocs.org
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/github3.py-feedstock/blob/master/LICENSE.txt)
 
