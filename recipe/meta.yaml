@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: github3.py
@@ -7,7 +7,7 @@ package:
 source:
   fn: github3.py-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/g/github3.py/github3.py-{{ version }}.tar.gz
-  sha256: a9134cb9efd334b1644ad7c5ee3ff3ff488317c4549ffc0e8d82e4d63383a1a4
+  sha256: 43133fbb2e4bfc8bab77ea996de6b027ea5054a958cc01f5efdcab3f5cb116ae
 
 build:
   number: 0
@@ -16,18 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3
+    - python >=3.6
     - pip
     - setuptools
   run:
-    - python >=3
-    - pyopenssl
-    - ndg-httpsclient
-    - pyasn1
-    - requests >=2.18
-    - uritemplate >=3.0.0
+    - python >=3.6
+    - pyjwt >=2.3.0
     - python-dateutil >=2.6.0
-    - jwcrypto
+    - requests >=2.18
+    - typing-extensions >=3.10.0.2
+    - uritemplate >=3.0.0
 
 test:
   imports:
